@@ -21,18 +21,18 @@ exit( 1 );
 
 
 $wgExtensionCredits['specialpage' ][] = array(
+	'path' => __FILE__,
 	'name' => 'URNames',
 	'author' => 'Josef Martiňák',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:URNames',
-	'description' => 'Extension displays the real names of wiki users in RecentChanges, PageHistory
-		and users\' lists. Logged in users can see the real name in the brackets after username.',
-	'version' => '0.1'
+	'url' => 'https://www.mediawiki.org/wiki/Extension:URNames',
+	'descriptionmsg' => 'urnames-desc',
+	'version' => '0.1.1'
 );
 
+$dir = dirname( __FILE__ );
+$wgExtensionMessagesFiles['URnames'] = $dir . '/URnames.i18n.php';
 
 $wgHooks['BeforePageDisplay'][] = 'replaceUserNames';
-
-
 
 /**
  * Class for replacing output code parts
