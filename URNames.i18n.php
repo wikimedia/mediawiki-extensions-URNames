@@ -22,3 +22,10 @@ $messages['qqq'] = array(
 	'urnames-desc' => '{{desc}}',
 );
 
+/** German (Deutsch)
+ * @author Metalhead64
+ */
+$messages['de'] = array(
+	'urnames-desc' => 'Ermöglicht die Anzeige der Klarnamen von Benutzern auf Spezialseiten, falls festgelegt (nur für angemeldete Benutzer)',
+);
+
