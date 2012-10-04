@@ -23,9 +23,31 @@ $messages['qqq'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author Metalhead64
  */
 $messages['de'] = array(
-	'urnames-desc' => 'Ermöglicht die Anzeige der Klarnamen von Benutzern auf Spezialseiten, falls festgelegt (nur für angemeldete Benutzer)',
+	'urnames-desc' => 'Ermöglicht auf Spezialseiten die Anzeige der von Benutzen hinterlegten bürgerlichen Namen für angemeldete Benutzer',
+);
+
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'urnames-desc' => 'Pokazujo wopšawdne mě wužywarja, jolic eksistěrujo, na specialnem boku (jano za pśizjawjonych wužywarjow)',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'urnames-desc' => 'Pokazuje woprawdźite mjeno wužiwarja, jeli eksistuje, na specialnej stronje (jenož za přizjewjenych wužiwarjow)',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'urnames-desc' => '利用者の本名が設定されている場合に、その本名を特別ページに表示する (ログイン利用者のみ)',
 );
 
