@@ -44,10 +44,31 @@ $messages['hsb'] = array(
 	'urnames-desc' => 'Pokazuje woprawdźite mjeno wužiwarja, jeli eksistuje, na specialnej stronje (jenož za přizjewjenych wužiwarjow)',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'urnames-desc' => 'Mostra il nome reale degli utenti, se impostato (solo per utenti registrati), su una pagina speciale',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
 $messages['ja'] = array(
 	'urnames-desc' => '利用者の本名が設定されている場合に、その本名を特別ページに表示する (ログイン利用者のみ)',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'urnames-desc' => 'De Benotzer hire richtegen Numm op Spezialsäite weisen, wann dat agestallt ass (nëmme fir ageloggte Benotzer)',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'urnames-desc' => 'Го прикажува вистинското име на корисникот, ако е зададено (само за најавени корисници) на специјалните страници',
 );
 
