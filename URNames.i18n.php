@@ -37,6 +37,20 @@ $messages['dsb'] = array(
 	'urnames-desc' => 'Pokazujo wopšawdne mě wužywarja, jolic eksistěrujo, na specialnem boku (jano za pśizjawjonych wužywarjow)',
 );
 
+/** Spanish (español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'urnames-desc' => 'Muestra el nombre real de los usuarios, si está puesto (solo para usuarios en línea), en las páginas especiales',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'urnames-desc' => 'הצגת השם האמתי של המשתמש, אם הוא מוגדר (רק עבור משתמשים שנכנסו), בדפים מיוחדים',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
