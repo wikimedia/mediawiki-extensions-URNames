@@ -44,6 +44,13 @@ $messages['es'] = array(
 	'urnames-desc' => 'Muestra el nombre real de los usuarios, si está puesto (solo para usuarios en línea), en las páginas especiales',
 );
 
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'urnames-desc' => 'Mostra o nome real dos usuarios, se está definido (só para os usuarios rexistrados), nas páxinas especiais',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
