@@ -79,6 +79,13 @@ $messages['ja'] = array(
 	'urnames-desc' => '利用者の本名が設定されている場合に、その本名を特別ページに表示する (ログイン利用者のみ)',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'urnames-desc' => '특수 문서에 로그인한 사용자에 한해 설정했을 때에 사용자의 실명을 보여줌',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
