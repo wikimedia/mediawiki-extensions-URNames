@@ -100,3 +100,10 @@ $messages['mk'] = array(
 	'urnames-desc' => 'Го прикажува вистинското име на корисникот, ако е зададено (само за најавени корисници) на специјалните страници',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'urnames-desc' => "Geeft op speciale pagina's voor aangemelde gebruikers de echte naam van gebruikers weer als die is ingesteld",
+);
+
