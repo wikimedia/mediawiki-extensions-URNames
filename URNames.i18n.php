@@ -106,4 +106,3 @@ $messages['mk'] = array(
 $messages['nl'] = array(
 	'urnames-desc' => "Geeft op speciale pagina's voor aangemelde gebruikers de echte naam van gebruikers weer als die is ingesteld",
 );
-
