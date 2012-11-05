@@ -44,6 +44,13 @@ $messages['es'] = array(
 	'urnames-desc' => 'Muestra el nombre real de los usuarios, si está puesto (solo para usuarios en línea), en las páginas especiales',
 );
 
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'urnames-desc' => "Afficher le vrai nom des utilisateurs, s'il existe (seulement pour les utilisateurs connectés), sur les pages spéciales",
+);
+
 /** Galician (galego)
  * @author Toliño
  */
