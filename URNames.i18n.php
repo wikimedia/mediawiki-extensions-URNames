@@ -22,6 +22,13 @@ $messages['qqq'] = array(
 	'urnames-desc' => '{{desc}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'urnames-desc' => "Amuesa'l nome real de los usuarios, si ta configuráu (sólo pa los usuarios coneutaos), nes páxines especiales",
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
