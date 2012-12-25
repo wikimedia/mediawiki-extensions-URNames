@@ -121,6 +121,13 @@ $messages['nl'] = array(
 	'urnames-desc' => "Geeft op speciale pagina's voor aangemelde gebruikers de echte naam van gebruikers weer als die is ingesteld",
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'urnames-desc' => "A mosta ël nòm ver ëd l'utent, se ampostà (mach për utent intrà), dzora le pagine speciaj",
+);
+
 /** Ukrainian (українська)
  * @author Base
  */
