@@ -122,10 +122,11 @@ $messages['nl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'urnames-desc' => "A mosta ël nòm ver ëd l'utent, se ampostà (mach për utent intrà), dzora le pagine speciaj",
+	'urnames-desc' => "A mostra ël nòm ver ëd l'utent, se ampostà (mach për utent intrà ant ël sistema), dzora le pàgine speciaj",
 );
 
 /** Ukrainian (українська)
