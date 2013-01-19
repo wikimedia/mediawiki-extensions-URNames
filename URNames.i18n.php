@@ -129,6 +129,13 @@ $messages['pms'] = array(
 	'urnames-desc' => "A mostra ël nòm ver ëd l'utent, se ampostà (mach për utent intrà ant ël sistema), dzora le pàgine speciaj",
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'urnames-desc' => "Fà vedè le nome vere de le utinde, ce 'mboste (sulamende pe le utinde reggistrate), sus a le pàggene speciale",
+);
+
 /** Ukrainian (українська)
  * @author Base
  */
