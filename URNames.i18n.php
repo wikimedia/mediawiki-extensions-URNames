@@ -142,3 +142,10 @@ $messages['roa-tara'] = array(
 $messages['uk'] = array(
 	'urnames-desc' => "Показує справжнє ім'я користувача, якщо вказано (лише зареєстрованих користувачів), на спеціальній сторінці",
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'urnames-desc' => '显示用户的真实名称，如果他在特殊页面设置了（仅适用登录的用户）',
+);
