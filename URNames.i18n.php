@@ -17,9 +17,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Raimond Spekking
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'urnames-desc' => '{{desc}}',
+	'urnames-desc' => '{{desc|name=UR Names|url=http://www.mediawiki.org/wiki/Extension:URNames}}',
 );
 
 /** Asturian (asturianu)
