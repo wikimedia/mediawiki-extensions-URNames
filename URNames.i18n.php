@@ -101,6 +101,13 @@ $messages['ko'] = array(
 	'urnames-desc' => '특수 문서에 로그인한 사용자에 한해 설정했을 때에 사용자의 실명을 보여줌',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'urnames-desc' => 'Zeisch dä reschteje Naame vun ander Metmaacher aan, op Extrasigge, ävver bloß wam_mer enjelog es.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
