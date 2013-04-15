@@ -144,6 +144,13 @@ $messages['roa-tara'] = array(
 	'urnames-desc' => "Fà vedè le nome vere de le utinde, ce 'mboste (sulamende pe le utinde reggistrate), sus a le pàggene speciale",
 );
 
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'urnames-desc' => 'Visar användarnas riktiga namn, om det är angivet (endast för inloggade användare), på specialsidor',
+);
+
 /** Ukrainian (українська)
  * @author Base
  */
