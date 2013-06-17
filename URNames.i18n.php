@@ -164,3 +164,10 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'urnames-desc' => '显示用户的真实名称，如果他在特殊页面设置了（仅适用登录的用户）',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'urnames-desc' => '於特殊頁面顯示已登入用戶預先設置的真實姓名',
+);
