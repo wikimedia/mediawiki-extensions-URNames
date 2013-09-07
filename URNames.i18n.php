@@ -137,6 +137,13 @@ $messages['pms'] = array(
 	'urnames-desc' => "A mostra ël nòm ver ëd l'utent, se ampostà (mach për utent intrà ant ël sistema), dzora le pàgine speciaj",
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'urnames-desc' => 'Exibe, se ativado, o nome real dos usuários em páginas especiais (apenas para usuários registrados)',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
