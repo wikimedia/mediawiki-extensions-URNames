@@ -151,6 +151,13 @@ $messages['roa-tara'] = array(
 	'urnames-desc' => "Fà vedè le nome vere de le utinde, ce 'mboste (sulamende pe le utinde reggistrate), sus a le pàggene speciale",
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'urnames-desc' => 'Показывает на специальных страницах настоящие имена участников, если они введены (только для представившихся участников)',
+);
+
 /** Swedish (svenska)
  * @author WikiPhoenix
  */
