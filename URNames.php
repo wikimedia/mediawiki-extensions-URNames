@@ -116,8 +116,9 @@ class URNames{
 
 /**
  * Adds real user names to specific special page or history page
- * @param object $out: instance of OutputPage
- * @param object $skin: instance of Skin, unused
+ * @param OutputPage $out
+ * @param Skin $skin Unused
+ * @return bool
  */
 function replaceUserNames( &$out, &$skin ) {
 	$user = $out->getUser();
@@ -132,7 +133,7 @@ function replaceUserNames( &$out, &$skin ) {
 	$pagename = '';
 
 	if( $title->isSpecialPage() ) {
-		$pagename = SpecialPage::resolveAlias( $title->getBaseText() );
+		list( $pagename, /*...*/ ) = SpecialPageFactory::resolveAlias( $title->getBaseText() );
 	}
 	elseif( isset( $query['action'] ) && $query['action'] == 'history' ) {
 		$pagename = 'history';
