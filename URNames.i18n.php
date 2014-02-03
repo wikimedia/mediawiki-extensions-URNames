@@ -52,6 +52,13 @@ $messages['es'] = array(
 	'urnames-desc' => 'Muestra el nombre real de los usuarios, si está puesto (solo para usuarios en línea), en las páginas especiales',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'urnames-desc' => 'نمایش نام واقعی کاربران، تنظیم شود (فقط برای ورود کاربران)، در صفحات ویژه',
+);
+
 /** French (français)
  * @author Gomoko
  */
