@@ -26,10 +26,11 @@ $wgExtensionCredits['specialpage' ][] = array(
 	'author' => 'Josef Martiňák',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:URNames',
 	'descriptionmsg' => 'urnames-desc',
-	'version' => '0.1.1'
+	'version' => '0.2.0'
 );
 
 $dir = dirname( __FILE__ );
+$wgMessagesDirs['URnames'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['URnames'] = $dir . '/URnames.i18n.php';
 
 $wgHooks['BeforePageDisplay'][] = 'replaceUserNames';
