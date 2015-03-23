@@ -2,8 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Raimond Spekking",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"urnames-desc": "{{desc|name=UR Names|url=http://www.mediawiki.org/wiki/Extension:URNames}}"
+	"urnames-desc": "{{desc|name=UR Names|url=https://www.mediawiki.org/wiki/Extension:URNames}}"
 }
