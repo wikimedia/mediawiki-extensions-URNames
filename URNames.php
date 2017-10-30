@@ -31,7 +31,6 @@ $wgExtensionCredits['specialpage' ][] = array(
 
 $dir = dirname( __FILE__ );
 $wgMessagesDirs['URnames'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['URnames'] = $dir . '/URnames.i18n.php';
 
 $wgHooks['BeforePageDisplay'][] = 'replaceUserNames';
 
