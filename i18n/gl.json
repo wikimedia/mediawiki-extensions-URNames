@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
-	"urnames-desc": "Mostra o nome real dos usuarios, se está definido (só para os usuarios rexistrados), nas páxinas especiais"
+	"urnames-desc": "Amosa o nome real dos usuarios, se está definido (só para os usuarios rexistrados), nas páxinas especiais"
 }
