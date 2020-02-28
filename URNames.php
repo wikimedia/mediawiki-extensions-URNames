@@ -133,7 +133,15 @@ function replaceUserNames( &$out, &$skin ) {
 	$pagename = '';
 
 	if( $title->isSpecialPage() ) {
-		list( $pagename, /*...*/ ) = SpecialPageFactory::resolveAlias( $title->getBaseText() );
+		if ( class_exists( 'MediaWiki\Special\SpecialPageFactory' ) ) {
+			// MW 1.32+
+			$specialPage = \MediaWiki\MediaWikiServices::getInstance()
+				->getSpecialPageFactory()
+				->resolveAlias( $title->getBaseText() );
+		} else {
+			$specialPage = SpecialPageFactory::resolveAlias( $title->getBaseText() );
+		}
+		$pagename = $specialPage[0];
 	}
 	elseif( isset( $query['action'] ) && $query['action'] == 'history' ) {
 		$pagename = 'history';
