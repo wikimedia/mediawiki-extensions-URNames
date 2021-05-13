@@ -122,7 +122,7 @@ class URNames{
  */
 function replaceUserNames( &$out, &$skin ) {
 	$user = $out->getUser();
-	if( !$user->isLoggedIn() ) {
+	if( !$user->isRegistered() ) {
 		// user is not logged - no action
 		return true;
 	}
